@@ -1,0 +1,10 @@
+# Move requirements.txt to the root if needed
+mv path/to/requirements.txt .
+
+# Add, commit, and push
+git add requirements.txt
+git commit -m "Move requirements.txt to root for Render deployment"
+git push
+git add Procfile
+git commit -m "Add Procfile for Render"
+git push
